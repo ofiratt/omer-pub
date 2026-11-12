@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>פאב קהילתי עומר</title>
+<meta name="description" content="תפריט ומחירים של הפאב הקהילתי בעומר, עם עגלה ותשלום בביט או בפייבוקס">
+<meta name="theme-color" content="#F47C4F">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍺</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Assistant:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="band"><div class="wrap">
+    <span>עומר המקום שלך לגדול</span>
+  </div></div>
+  <div class="hero"><div class="wrap">
+    <div class="stripes" aria-hidden="true"></div>
+    <h1>״פאב קהילתי״</h1>
+    <div class="meta"><span>חמישי</span><span>20:00–23:00</span><span>דפנה 10</span></div>
+  </div></div>
+</header>
+
+<main class="menu"><div class="wrap" id="menu"></div></main>
+
+<div class="foot wrap">מועצה מקומית עומר · מרכז קהילתי עומר</div>
+
+<div class="bar"><div class="wrap">
+  <span class="count" id="count">0</span>
+  <span>פריטים בעגלה</span>
+  <span class="total" id="total">₪0</span>
+  <button class="open" id="openCart" disabled>לתשלום</button>
+</div></div>
+
+<div class="scrim" id="scrim" hidden></div>
+<section class="sheet" id="sheet" hidden aria-label="העגלה שלי"><div class="wrap">
+  <div class="grab"></div>
+  <div class="sheet-head">
+    <h2>העגלה שלי</h2>
+    <button class="btn-round close" id="closeCart" aria-label="סגירה">×</button>
+  </div>
+  <div class="lines" id="lines"></div>
+  <div class="sum"><span>סה״כ לתשלום</span><b id="sumTotal">₪0</b></div>
+  <div class="pay-label">בחרו איך לשלם:</div>
+  <div class="pay">
+    <a class="bit" id="payBit" href="#" target="_blank" rel="noopener">bit<small>מעבר לביט</small></a>
+    <a class="paybox" id="payBox" href="#" target="_blank" rel="noopener">PayBox<small>מעבר לפייבוקס</small></a>
+  </div>
+  <p class="hint" id="payHint"></p>
+  <button class="clear" id="clear">ריקון העגלה</button>
+</div></section>
+
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
