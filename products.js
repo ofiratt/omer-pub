@@ -12,22 +12,16 @@ const MENU = [
     { id: "goldstar", name: "גולדסטאר", price: 12 },
   ]},
   { cat: "וויסקי", items: [
-    { id: "jameson", name: "ג׳יימסון", price: 18 },
     { id: "jameson-chaser", name: "ג׳יימסון", desc: "צ׳ייסר", price: 12 },
   ]},
-  { cat: "ערק", items: [
-    { id: "arak", name: "ערק שלט", price: 12 },
-  ]},
   { cat: "יין", items: [
-    { id: "pinot", name: "יקב מדבר סדרה 22 פינו נואר 2024", price: 24 },
-    { id: "midbar22", name: "יקב מדבר - סדרה 22", price: 18 },
-  ]},
-  { cat: "ג׳ין", items: [
-    { id: "gordons", name: "גורדונס ג׳ין", price: 12 },
+    { id: "red-wine", name: "יין אדום", price: 24 },
+    { id: "white-wine", name: "יין לבן", price: 24 },
   ]},
   { cat: "קוקטיילים", items: [
     { id: "arak-mix", name: "ערק + תוספת", price: 12 },
     { id: "gin-tonic", name: "ג׳ין וטוניק", price: 18 },
+    { id: "campari-orange", name: "קמפרי תפוזים", price: 18 },
   ]},
   { cat: "שתייה קלה", items: [
     { id: "water", name: "מים", price: 6 },
@@ -36,5 +30,8 @@ const MENU = [
     { id: "cola", name: "קולה פחית", price: 6 },
     { id: "zero", name: "זירו פחית", price: 6 },
     { id: "tonic", name: "מי טוניק", price: 6 },
+  ]},
+  { cat: "נשנושים", items: [
+    { id: "nachos", name: "נאצ׳וס ומטבל", price: 30 },
   ]},
 ];
