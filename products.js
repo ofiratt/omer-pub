@@ -22,6 +22,7 @@ const MENU = [
     { id: "arak-mix", name: "ערק + תוספת", price: 12 },
     { id: "gin-tonic", name: "ג׳ין וטוניק", price: 18 },
     { id: "campari-orange", name: "קמפרי תפוזים", price: 18 },
+    { id: "aperol-mix", name: "אפרול + תוספת", price: 18 },
   ]},
   { cat: "שתייה קלה", items: [
     { id: "water", name: "מים", price: 6 },
